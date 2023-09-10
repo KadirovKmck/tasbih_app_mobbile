@@ -11,12 +11,6 @@ class HomeViews extends StatefulWidget {
 class _HomeViewsState extends State<HomeViews> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Container(
-      height: 300,
-      width: 300,
-      color: Colors.amber,
-      child: Animetions(),
-    ));
+    return Scaffold(body: Center(child: Animetions()));
   }
 }
