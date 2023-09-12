@@ -76,10 +76,10 @@ class _CoreButtonState extends State<CoreButton>
       child: Transform.scale(
         scale: _scaleTransformValue,
         child: Container(
-          height: 150,
-          width: 150,
+          height: 145,
+          width: 145,
           decoration: BoxDecoration(
-              color: Colors.amber,  
+              color: Colors.amber,
               borderRadius: BorderRadius.all(
                 Radius.circular(
                   300,
